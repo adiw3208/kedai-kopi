@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>Kedai Kopi</title>
+  </head>
+  <body>
+    <!-- Nav -->
+    <nav class="navbar">
+      <a href="#" class="navbar__logo"
+        >Kedai <span>Kopi</span>.</a
+      >
+      <div class="navbar__nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="navbar__extra">
+        <a href="#" id="search">
+          <i data-feather="search"></i
+        ></a>
+        <a href="#" id="shopping-cart">
+          <i data-feather="shopping-cart"></i
+        ></a>
+        <a href="#" id="hamburger-menu">
+          <i data-feather="menu"></i
+        ></a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <main class="content">
+        <h1>Mari nikmati secangkir <span>kopi</span></h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur
+          adipisicing elit. In, unde.
+        </p>
+        <a href="#" class="cta">beli sekarang</a>
+      </main>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+      <div class="row">
+        <div class="about__img">
+          <img
+            src="./src/assets/images/tentang-kami.jpg"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <h3>Kenapa Memilih Kopi Kami</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Nam distinctio blanditiis ab
+            ratione sapiente aut!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Rem deserunt temporibus quo
+            autem voluptatem! Soluta amet quia fuga sapiente
+            suscipit.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- menu section -->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Explicabo ipsum, iure odit optio temporibus
+        ut.
+      </p>
+      <div class="row">
+        <div class="menu__card">
+          <img
+            src="./src/assets/images/menu/1.jpg"
+            alt=""
+            class="menu__card__img"
+          />
+          <h3 class="menu__card__title">- Espresso -</h3>
+          <code class="menu__card__price">IDR 15000</code>
+        </div>
+        <div class="menu__card">
+          <img
+            src="./src/assets/images/menu/1.jpg"
+            alt=""
+            class="menu__card__img"
+          />
+          <h3 class="menu__card__title">- Espresso -</h3>
+          <code class="menu__card__price">IDR 15000</code>
+        </div>
+        <div class="menu__card">
+          <img
+            src="./src/assets/images/menu/1.jpg"
+            alt=""
+            class="menu__card__img"
+          />
+          <h3 class="menu__card__title">- Espresso -</h3>
+          <code class="menu__card__price">IDR 15000</code>
+        </div>
+        <div class="menu__card">
+          <img
+            src="./src/assets/images/menu/1.jpg"
+            alt=""
+            class="menu__card__img"
+          />
+          <h3 class="menu__card__title">- Espresso -</h3>
+          <code class="menu__card__price">IDR 15000</code>
+        </div>
+        <div class="menu__card">
+          <img
+            src="./src/assets/images/menu/1.jpg"
+            alt=""
+            class="menu__card__img"
+          />
+          <h3 class="menu__card__title">- Espresso -</h3>
+          <code class="menu__card__price">IDR 15000</code>
+        </div>
+        <div class="menu__card">
+          <img
+            src="./src/assets/images/menu/1.jpg"
+            alt=""
+            class="menu__card__img"
+          />
+          <h3 class="menu__card__title">- Espresso -</h3>
+          <code class="menu__card__price">IDR 15000</code>
+        </div>
+      </div>
+    </section>
+    <!-- contact section -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing
+        elit. Voluptatum, distinctio.
+      </p>
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15832.54633388524!2d109.30919326261657!3d-7.225258047093096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6ff1a7f802bb61%3A0x583bb950f1113464!2sObyek%20Wisata%20Alam%20Goa%20Lawa%20Purbalingga!5e0!3m2!1sid!2sid!4v1702441777199!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+        <form action="">
+          <div class="input__group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input__group">
+            <i data-feather="mail"></i>
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="input__group">
+            <i data-feather="phone"></i>
+            <input type="number" placeholder="no.hp" />
+          </div>
+          <button type="submit">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="socials">
+        <a href="">
+          <i data-feather="instagram"></i>
+        </a>
+        <a href="">
+          <i data-feather="twitter"></i>
+        </a>
+        <a href="">
+          <i data-feather="github"></i>
+        </a>
+        <a href="">
+          <i data-feather="mail"></i>
+        </a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="credit">
+        <p>
+          created by <a href="">Adi Wahyudi</a>. | &copy;
+          2023.
+        </p>
+      </div>
+    </footer>
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
